@@ -1,4 +1,4 @@
-# Group-19
+# 2016 Presidential Twitter News Coverage
 
 This visualization aims to display changes in sentiment (positive or negative opinions) expressed, on Twitter, by some of the most popular TV networks about presidential candidates over the course of the campaign.
 
