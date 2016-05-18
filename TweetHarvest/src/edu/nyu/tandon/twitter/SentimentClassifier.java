@@ -111,7 +111,7 @@ public class SentimentClassifier extends SQLiteComponent {
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		
 		SentimentClassifier s = new SentimentClassifier();
-		s.openConnection("/home/elshize/tweets.db");
+		s.openConnection(DEFAULT_DB);
 		
 		s.setUpdateMode(true);
 		s.classify();

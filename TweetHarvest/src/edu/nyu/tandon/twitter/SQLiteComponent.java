@@ -25,6 +25,7 @@ public class SQLiteComponent {
 	
 	public static final Logger logger = Logger.getLogger(SQLiteComponent.class);
 
+	public static final String DEFAULT_DB = "/home/elshize/tweets.db";
 	protected static final int BATCH_SIZE = 200;
 	protected static final String SELECT_TWEET = "SELECT * FROM tweet WHERE tweet_id = ?";
 //	protected static final String SELECT_MANY_TWEETS = "SELECT * FROM tweet WHERE tweet_id IN (?)";

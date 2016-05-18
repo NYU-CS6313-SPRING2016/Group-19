@@ -49,7 +49,7 @@ public class HistoryScraper extends AbstractHistoryScraper {
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		
 		HistoryScraper scraper = new HistoryScraper();
-		scraper.openConnection("/home/elshize/tweets.db");
+		scraper.openConnection(DEFAULT_DB);
 		
 		String[] follow = new String[] { "CNN", "FoxNews", "MSNBC", "ABC", "CBSNews", "BBCWorld" };
 		

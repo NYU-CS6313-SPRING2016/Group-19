@@ -97,10 +97,8 @@ public class Categorizer extends SQLiteComponent {
 	
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		
-		// TODO: generalize
-		
 		Categorizer c = new Categorizer();
-		c.openConnection("/home/elshize/tweets.db");
+		c.openConnection(DEFAULT_DB);
 		
 		c.addFilter(MatchingFilter.create("Donald Trump")
 				.matchWord("Trump")

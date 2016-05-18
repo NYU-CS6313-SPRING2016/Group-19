@@ -308,7 +308,7 @@ public class JsonExporter extends SQLiteComponent implements Closeable {
 		
 		
 		try (JsonExporter j = new JsonExporter("/home/elshize/Projects/infoviz/project/data.json")) {
-			j.openConnection("/home/elshize/tweets.db");
+			j.openConnection(DEFAULT_DB);
 			j.exportJson();
 		}
 		
