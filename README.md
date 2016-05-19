@@ -11,8 +11,7 @@ Furthermore, we can access the most impactful positive and negative tweets at ea
 http://nyu-cs6313-spring2016.github.io/Group-19/
 
 ## Screencast
-
-TODO
+https://vimeo.com/167335847
 
 ## Write-up
 http://nyu-cs6313-spring2016.github.io/Group-19/writeup.pdf
