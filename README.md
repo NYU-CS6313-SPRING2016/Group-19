@@ -5,7 +5,7 @@ This visualization aims to display changes in sentiment (positive or negative op
 A measure called impact (sentiment score * number of retweets) has been introduced to measure the opinionated impact of tweets.
 
 It has been aggregated by weeks and displayed as a timeline to show trends and values at particular time.
-Furthermore, we can access the most impactful positive and negative tweets at each period of time in order to attempt at finding out what might have been the reasons for sudden changes (if such exist) in sudden changes.
+Furthermore, we can access the most impactful positive and negative tweets at each period of time in order to attempt at finding out what might have been the reasons for sudden changes (if such exist).
 
 ## Demo
 http://nyu-cs6313-spring2016.github.io/Group-19/
